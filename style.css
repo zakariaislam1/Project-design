@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: linear-gradient(rgba(16,16,16) 0%,
+    rgba(16,16,16,0) 100%), url(/images/Banner\ Image.png);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-text{
+    color: white;
+    text-align: center;
+}
+.header-subtitle{
+    font-size: 72px;
+}
+.header-title{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* main styles */
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-sale{
+    width: 800px;
+    height: 800px;
+    margin-top: 100px; 
+}
+.sale-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.sale-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-top: 45px;
+}
+.sale-catagory{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.sale-image{
+    margin-top: 48px;
+}
+
+
+/* welcome */
+
+.welcome-container{
+    background: url(/images/Vectorrr.png);
+    margin: 120px 0;
+}
+
+.welcome-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome-column .welcome-title{
+    color: white;
+    font-size: 64px;
+}
+.welcome-column .welcome-description{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.join{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+} 
+.twenty-four-image{
+    height: 460px;
+    width: 319px;
+} 
+
+/* place & date */
+
+.place-container{
+    height: 450px;
+}
+.place-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}    
+.place-time-date{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* comming soon */
+
+.comming-soon-container{
+    height: 450px;
+    margin: 120px 20px 120px 20px;
+}
+.comming-soon-content{
+    display: flex;
+    justify-content: space-between;
+}
+.first-column{
+    margin-top: 50px;
+}
+.comming-title{
+    font-size: 24px;
+    color: #FF0000;
+}
+.comming-subtitle{
+    font-size: 48px;
+    margin-top: 10px;
+}
+.comming-description{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.comming-image{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+.second-column{
+    margin-top: 50px;
+}
+
+.comming-title{
+    font-size: 48px;
+}
+.second-column .comming-sec-image{
+    margin-top: 40px;
+}
+
+
+/* holiday */
+
+.holiday-container{
+    height: 960px;
+    width: 100%;
+    position: relative;
+}
+.holiday-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.discount{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+.box-image{
+    position: relative;
+    top: 220px;
+    z-index: 1;
+
+}
+.red-image{
+    position: absolute;
+    width: 100vw;
+    
+}
+.holiday-title{
+    font-size: 24px;
+}
+.holiday-subtitle{
+    font-size: 70px;
+    color: #FF0000;
+    margin-top: 16px;
+}
+.holiday-description{
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+
+/* portfolio */
+
+.portfolio-container{
+    margin-top: 250px;
+}
+.portfolio-content{
+    margin-left: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-subtitle{
+    margin-top: 20px;
+}
+.portfolio-description{
+    margin-top: 25px;
+}
+.portfolio-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.port-img{
+    height: 400px;
+    width: 400px;
+}
+
+
+
+/* subscribe-content */
+
+.subscribe-container{
+    margin-top: 150px;
+    background-color: #ffcccc;
+    height: 450px;
+}
+.subscribe-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.subs-image{
+    height: 150px;
+    width: 150px;
+}
+.subscribe-title{
+    font-size: 48px;
+    margin-top: 20px;
+}
+.subscribe-description{
+    margin-top: 15px;
+}
+.subscribe-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.mail-area{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+.subs-btn{
+    padding: 15px 30px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
+
+/* footer */
+.foot-container{
+    background-color: black;
+    height: 400px;
+    margin-top: 100px;
+}
+.foot-content{
+    padding-top: 50px;
+}
+.foot-upper{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: white;
+}
+.foot-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+.foot-last{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: white;
+}
