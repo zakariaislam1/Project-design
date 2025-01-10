@@ -168,7 +168,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: center;  
 }
 .discount{
     position: absolute;
@@ -182,10 +182,10 @@
 
 }
 .red-image{
-    position: absolute;
-    width: 100vw;
-    
+    width: 85%;
+    margin: 0 auto;
 }
+    
 .holiday-title{
     font-size: 24px;
 }
@@ -303,4 +303,16 @@
     justify-content: space-around;
     margin-top: 20px;
     color: white;
+}
+
+
+
+/* test */
+
+.test{
+    border: 2px solid red;
+    height: 50px;
+    background-color: aquamarine;
+    width: 85%;
+    margin: 0 auto;
 }
